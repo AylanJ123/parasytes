@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="Parasytes" modversion="0.0.1a" gameversion="1.0.20.1" corepackage="false" altnames="PRS">
+  <Afflictions file="%ModDir%/XML/Afflictions.xml" />
   <!--
     <Afflictions file="%ModDir%/Afflictions.xml" />
     <Item file="%ModDir%/Items/Weapons/ek_weapons.xml" />
