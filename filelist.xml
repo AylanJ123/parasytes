@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Parasytes" modversion="0.0.1a" gameversion="1.0.20.1" corepackage="false" altnames="PRS">
+  <!--
+    <Afflictions file="%ModDir%/Afflictions.xml" />
+    <Item file="%ModDir%/Items/Weapons/ek_weapons.xml" />
+    <Character file="%ModDir%/Characters/Homing Shell/Homingshell.xml" />
+    <Particles file="%ModDir%/Particles/ParticlePrefabs.xml" />
+    <Text file="%ModDir%/Texts/EnglishEkArmory.xml" />
+  -->
+</contentpackage>
