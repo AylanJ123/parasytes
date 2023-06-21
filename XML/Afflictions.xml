@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Afflictions>
-  <Affliction name="Cordyceps" identifier="cordyceps" description="Fungal infection that zombiefies its host to spread further" limbSpecific="false" indicatorLimb="Torso" showIconThreshold="50" maxStrength="200" affectMachines="false" showBarInHealthMenu="false" showInHealthScannerThreshold="60" afflictionOverlayAlphaIsLinear="true" weaponsSkillGain="3" medicalSkillGain="3" treatmentThreshold="50" grainBurst="0.1" type="fungal" isBuff="false" healableInMedicalClinic="false" iconColors="249,190,102,255;161,82,16,255">
-    <AfflictionOverlay texture="%ModDir%/Images/Overlays/Cordyceps.png" sourcerect="0,0,1920,1080" minAfflictionOverlayAlphaMultiplier="0" maxAfflictionOverlayAlphaMultiplier="0.01"/>
+  <Affliction name="Cordyceps" identifier="cordyceps" description="Fungal infection that zombiefies its host to spread further" limbSpecific="false" indicatorLimb="Torso" afflictionOverlayAlphaIsLinear="true" showIconThreshold="50" maxStrength="200" affectMachines="false" showBarInHealthMenu="false" showInHealthScannerThreshold="60" weaponsSkillGain="3" medicalSkillGain="3" treatmentThreshold="50" grainBurst="0.1" type="fungal" isBuff="false" healableInMedicalClinic="false" iconColors="249,190,102,255;161,82,16,255">
+    <AfflictionOverlay texture="%ModDir%/Images/Overlays/Cordyceps.png" sourcerect="0,0,1024,680" minAfflictionOverlayAlphaMultiplier="0" maxAfflictionOverlayAlphaMultiplier="0.01"/>
     <Icon texture="%ModDir%/Images/SpriteSheets/ParasyteAfflictionIcons.png" sheetindex="0,0" sheetelementsize="128,128" origin="0,0"/>
     <Description textIdentifier="cordyceps-self-50" minStrength="50" maxStrength="59" target="Self" text="Your chest feels tight"/>
     <Description textIdentifier="cordyceps-others-50" minStrength="50" maxStrength="59" target="OtherCharacter" text="Patient constantly gasps for air and barely communicates"/>
@@ -12,26 +12,26 @@
     <Description textIdentifier="cordyceps-any" minStrength="100" maxStrength="200" target="Any" text="This body is dying to Human Cordyceps, nothing can be done... Burn with fire to prevent spread."/>
     <Effect minStrength="0" maxStrength="29" strengthChange="0.2" multiplyByMaxVitality="true" minVitalityDecrease="0" maxVitalityDecrease="0.1"/>
     <Effect minStrength="30" maxStrength="49" strengthChange="0.2" multiplyByMaxVitality="true" minVitalityDecrease="0.1" maxVitalityDecrease="0.15" minScreenDistort="0" maxScreenDistort="0.1"/>
-    <Effect minStrength="50" maxStrength="59" strengthChange="0.3" multiplyByMaxVitality="true" minVitalityDecrease="0.15" maxVitalityDecrease="0.25" minScreenDistort="0.1" maxScreenDistort="0.3" minRadialDistort="0.1" maxRadialDistort="0.4">
+    <Effect minStrength="50" maxStrength="59" strengthChange="0.3" multiplyByMaxVitality="true" minVitalityDecrease="0.15" maxVitalityDecrease="0.25" minScreenDistort="0.1" maxScreenDistort="0.6" minRadialDistort="0.1" maxRadialDistort="0.6">
       <AbilityFlag flagtype="IgnoredByEnemyAI"/>
       <StatValue statType="WalkingSpeed" minValue="0.1" maxValue="0.3" />
     </Effect>
-    <Effect minStrength="60" maxStrength="89" multiplyByMaxVitality="true" minVitalityDecrease="0.25" maxVitalityDecrease="0.5" strengthChange="0.4" minScreenDistort="0.5" maxScreenDistort="0.5" minRadialDistort="0.5" maxRadialDistort="0.5" minChromaticAberration="0.0" maxChromaticAberration="1" minBodyTint="255,255,255,0" maxBodyTint="255,255,255,125" minFaceTint="255,255,255,0" maxFaceTint="255,255,255,125">
+    <Effect minStrength="60" maxStrength="89" multiplyByMaxVitality="true" minVitalityDecrease="0.25" maxVitalityDecrease="0.5" strengthChange="0.4" minScreenDistort="0.6" maxScreenDistort="0.9" minRadialDistort="0.6" maxRadialDistort="0.9" minChromaticAberration="0.0" maxChromaticAberration="1" minBodyTint="255,255,255,0" maxBodyTint="255,255,255,125" minFaceTint="255,255,255,0" maxFaceTint="255,255,255,125">
       <AbilityFlag flagtype="IgnoredByEnemyAI"/>
       <StatValue statType="WalkingSpeed" minvalue="0.3" maxValue="0.6" />
     </Effect>
-    <Effect minStrength="90" maxStrength="99" strengthChange="0.5" multiplyByMaxVitality="true" minVitalityDecrease="0.5" maxVitalityDecrease="0.75" minScreenDistort="0.5" maxScreenDistort="0.5" minRadialDistort="0.5" maxRadialDistort="0.5" minChromaticAberration="0.0" maxChromaticAberration="1" minGrainStrength="0.0" maxGrainStrength="1" minBodyTint="255,255,255,125" maxBodyTint="255,255,255,225" minFaceTint="255,255,255,125" maxFaceTint="255,255,255,225">
+    <Effect minStrength="90" maxStrength="99" strengthChange="0.5" multiplyByMaxVitality="true" minVitalityDecrease="0.5" maxVitalityDecrease="0.75" minScreenDistort="0.9" maxScreenDistort="1" minRadialDistort="0.9" maxRadialDistort="1" minChromaticAberration="1" maxChromaticAberration="1" minGrainStrength="0.0" maxGrainStrength="1" minBodyTint="255,255,255,125" maxBodyTint="255,255,255,225" minFaceTint="255,255,255,125" maxFaceTint="255,255,255,225">
       <AbilityFlag flagtype="IgnoredByEnemyAI"/>
       <StatValue statType="WalkingSpeed" value="0.8" />
     </Effect>
-    <Effect minStrength="100" maxStrength="200" strengthChange="2.5" multiplyByMaxVitality="true" minVitalityDecrease="0.75" maxVitalityDecrease="2" minScreenDistort="0.5" maxScreenDistort="0.5" minRadialDistort="0.5" maxRadialDistort="0.5" minChromaticAberration="1" maxChromaticAberration="1" minGrainStrength="1" maxGrainStrength="1" minBodyTint="255,255,255,225" maxBodyTint="255,255,255,225" minFaceTint="255,255,255,225" maxFaceTint="255,255,255,225">
+    <Effect minStrength="100" maxStrength="200" strengthChange="2.5" multiplyByMaxVitality="true" minVitalityDecrease="0.75" maxVitalityDecrease="2" minScreenDistort="1" maxScreenDistort="1" minRadialDistort="1" maxRadialDistort="1" minChromaticAberration="1" maxChromaticAberration="1" minGrainStrength="1" maxGrainStrength="1" minBodyTint="255,255,255,225" maxBodyTint="255,255,255,225" minFaceTint="255,255,255,225" maxFaceTint="255,255,255,225">
       <AbilityFlag flagtype="IgnoredByEnemyAI"/>
       <StatValue statType="WalkingSpeed" value="-1" />
       <StatusEffect target="Character">
         <Affliction identifier="stun" strength="100"/>
       </StatusEffect>
     </Effect>
-    <PeriodicEffect mininterval="1" maxinterval="3">
+    <PeriodicEffect mininterval="1" maxinterval="1">
       <StatusEffect target="Character" comparison="and">
         <Conditional ishuman="true"/>
         <Conditional cordyceps="gteq 50"/>
@@ -42,21 +42,20 @@
       <StatusEffect target="Character" comparison="and">
         <Conditional cordyceps="gteq 60"/>
         <Affliction identifier="invertcontrols" strength="5"/>
+        <Affliction identifier="psychosis" strength="5"/>
       </StatusEffect>
     </PeriodicEffect>
-    <PeriodicEffect mininterval="30" maxinterval="60">
+    <PeriodicEffect mininterval="10" maxinterval="20">
       <StatusEffect target="Limb" comparison="and" targetLimbs="Head">
         <Conditional ishuman="true"/>
         <Conditional cordyceps="gteq 75"/>
         <Affliction identifier="eyedamage" strength="15"/>
       </StatusEffect>
     </PeriodicEffect>
-    <PeriodicEffect mininterval="3" maxinterval="5">
+    <PeriodicEffect mininterval="4" maxinterval="8">
       <StatusEffect target="Character" comparison="and">
-        <Conditional ishuman="true"/>
         <Conditional cordyceps="gteq 100"/>
         <Affliction identifier="internaldamage" strength="1"/>
-        <Affliction identifier="psychosis" strength="25"/>
       </StatusEffect>
     </PeriodicEffect>
   </Affliction>
